@@ -1,0 +1,44 @@
+<!-- Write your HTML in here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
+</head>
+
+<body>
+	<h1 class="titletext">Tic Tac Toe</h1>
+   <div id = "main">
+      <div id = "cell1" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell2" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell3" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell4" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell5" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell6" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell7" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell8" class = "box" onclick="playerTakeTurn(this)" ></div>
+      <div id = "cell9" class = "box" onclick="playerTakeTurn(this)" ></div>
+    </div>
+
+ 	<div id="controls" class="hidden">
+ 		<button id="newbutton" onclick="newGame()">Start New Game</button>
+ 	</div>
+
+
+ 	<div id="lightbox" class="hidden"></div>
+
+ 	<div id="positionMessage">
+ 		<div id="boundaryMessage" class="hidden">
+ 			<img id="x" src="images/x.png" alt="close" onclick="continueGame()">
+ 			<h1 class="titletext" id="message">&nbsp;</h1>
+ 			<p class="titletext" id="message2"></p>
+
+ 		</div>
+ 	</div>
+
+
+
+</body>
+</html>
