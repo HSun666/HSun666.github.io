@@ -1,0 +1,122 @@
+body{
+	background-image:url("images/background.png");
+}
+
+#gameBoard{
+	border: 1px solid black;
+	display:grid;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px 120px;
+	justify-content: center;
+	width:600px;
+	height:600px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#gameBoard div{
+	background-color: #00EE00;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.key{
+	background-image:url("images/key.png");
+}
+
+.rock{
+	background-image:url("images/rock.png");
+}
+
+.jaildoor{
+	background-image:url("images/jaildoor.png");
+}
+
+.lava{
+	background-image:url("images/lava.gif");
+}
+
+.bridge{
+	background-image:url("images/bridge.png") !important;
+}
+
+.soldier-front{
+	background-image:url("images/soldier-front.gif");
+}
+
+.soldier-right{
+	background-image:url("images/soldier-right.gif");
+}
+
+.soldier-down{
+	background-image:url("images/soldier-down.gif");
+}
+
+.soldier-left{
+	background-image:url("images/soldier-left.gif");
+}
+
+.robin-front{
+	background-image:url("images/robin-front.gif");
+}
+
+.robin-down{
+	background-image:url("images/robin-down.gif");
+}
+
+.robin-left{
+	background-image:url("images/robin-left.gif");
+}
+
+.robin-right{
+	background-image:url("images/robin-right.gif");
+}
+
+.zombie-left{
+	background-image:url("images/zombie-left.gif");
+}
+
+.zombie-right{
+	background-image:url("images/zombie-right.gif");
+}
+
+.socks{
+	background-image:url("images/socks.png");
+}
+
+.jump-front{
+	background-image:url("images/jump-front.png");
+}
+
+.jump-back{
+	background-image:url("images/jump-back.png");
+}
+
+.jump-right{
+	background-image:url("images/jump-right.png");
+}
+
+.jump-left{
+	background-image:url("images/jump-left.png");
+}
+
+.key-front{
+	background-image:url("images/key-front.png");
+}
+
+.key-back{
+	background-image:url("images/key-back.png");
+}
+
+.key-right{
+	background-image:url("images/key-right.png");
+}
+
+.key-left{
+	background-image:url("images/key-left.png");
+}
+
+.wall{
+	background-image:url("images/wall.png");
+}
