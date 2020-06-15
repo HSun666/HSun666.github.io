@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Albert's Adventure</title>
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+
+		<div class="background" id="gameBoard">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<div id="header">
+			<h2 id="left">Coins: <span id="coins">0</span></h2>
+		</div>
+
+		<div class="message" id="lose">You Lose</div>
+		<div class="message" id="levelup">Next Level...</div>
+
+		<div id = "lightbox" class = "hidden"></div>
+    	<div id = "lightbox1" class = "hidden"></div>
+    	<div id = "lightbox2" class = "hidden"></div>
+
+    	<img id = "pauseIcon" src="images/pause.png" alt = "pause" onclick="showPause()">
+
+
+	    <div id = "positionRule">
+	      <div id = "boundaryRule" class = "hidden">
+	        <img id = "x" src="images/x.png" alt = "close" onclick="continueGame()">
+ 			<h1 class="ruleText" id="text1">&nbsp;</h1>
+ 			<p class="ruleText" id="text2">>&nbsp;</p>
+	      </div>
+	    </div>   
+
+	    <div id="positionPauseNavigation">
+	      <div id="pauseNavigation" class = "hidden">
+	        <div id="pauseMessage">PAUSED</div>        
+	        <div onclick="resumeGame()" class="pausePlayerOption">Resume</div>     
+	        <div onclick="restartGame()" class="pausePlayerOption">Restart</div>     
+	      </div>
+	    </div>
+
+		<script src="game.js"></script>
+	</body>
+
+</html>
