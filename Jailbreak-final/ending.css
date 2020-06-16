@@ -1,0 +1,40 @@
+body{
+	background-image: url("images/back-3.png");
+	font-family:Impact, Charcoal, sans-serif;
+	text-align:center;
+	color:red;
+}
+
+.background{background-image: url("images/back-3.png");}
+
+#display {
+	width: 800px;
+	height:400px;
+	padding: 10px;
+	border: 5px solid gray;
+	margin: 0;
+	text-align: center;
+	justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title{
+	text-align: center;
+	justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#button{
+	text-align: center;
+	color:white;
+	background-color: red;
+	border:none;
+	outline:none;
+	padding:15px 32px;
+	font-size:1.5em;
+	font-family:Verdana,sans-serif;
+	border-radius:10px;
+	transition-duration: 0.4s; 
+}
